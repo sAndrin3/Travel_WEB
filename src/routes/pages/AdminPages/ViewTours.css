@@ -1,0 +1,32 @@
+.ap{
+    width: 100%;
+    /* margin-top: 7rem;
+    height: calc(100vh - 7rem); */
+}
+.view-tours {
+    margin: 20px;
+  }
+  
+  .tour-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tour-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .tour-card h3 {
+    margin: 0;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  

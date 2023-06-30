@@ -1,0 +1,1 @@
+export const apiDomain = 'tourertravel.azurewebsites.net'

@@ -1,0 +1,28 @@
+.ap{
+    width: 100%;
+    /* margin-top: 7rem;
+    height: calc(100vh - 7rem); */
+}
+.admin-profile2 {
+  margin-top: 20px;
+}
+
+.admin-profile h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.admin-profile__info {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.admin-profile__info div {
+  margin-bottom: 5px;
+}
+
+.admin-profile__info strong {
+  font-weight: bold;
+}
