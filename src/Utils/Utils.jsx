@@ -1,1 +1,1 @@
-export const apiDomain = 'https://tourertravel.azurewebsites.net'
+export const apiDomain = 'https://groopl.azurewebsites.net'
