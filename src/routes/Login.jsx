@@ -40,9 +40,9 @@ function Login() {
             navigate("/admin/profile"); // Route to admin dashboard
           }
         })
-        .catch(({ response }) => {
-          alert("Wrong credentials");
-        });
+        // .catch(({ response }) => {
+        //   alert("Wrong credentials");
+        // });
     }
 
     if (data) {
@@ -55,9 +55,9 @@ function Login() {
             navigate("/user/profile"); // Route to user dashboard
           }
         })
-        // .catch(({ response }) => {
-        //   alert(response.data.error);
-        // });
+        .catch(({ response }) => {
+          alert(response.data.error);
+        });
     }
   };
 
