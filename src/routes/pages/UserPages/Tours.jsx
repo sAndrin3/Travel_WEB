@@ -12,7 +12,7 @@ function Tours() {
 
   const fetchTours = async () => {
     try {
-      const response = await axios.get('http://localhost:8081/tours');
+      const response = await axios.get(`${apiDomain}/tours`);
       setTours(response.data.tours);
     } catch (error) {
       setError(error.message);
@@ -31,7 +31,7 @@ function Tours() {
         return;
       }
   
-      const response = await axios.post(`http://localhost:8081/bookings?userId=${user.UserID}`, {
+      const response = await axios.post(`${apiDomain}/bookings?userId=${user.UserID}`, {
         tour_id:TourID,
         user_id: user.UserID,
       });
