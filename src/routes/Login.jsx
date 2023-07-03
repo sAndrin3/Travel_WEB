@@ -55,9 +55,9 @@ function Login() {
             navigate("/user/profile"); // Route to user dashboard
           }
         })
-        // .catch(({ response }) => {
-        //   alert(response.data.error);
-        // });
+        .catch(({ response }) => {
+          alert(response.data.error);
+        });
     }
   };
 
