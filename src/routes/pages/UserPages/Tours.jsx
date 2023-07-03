@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './Tours.css';
 import { Context } from '../../../context/userContext/Context';
+import { apiDomain } from '../../../Utils/Utils';
 
 function Tours() {
   const { user } = useContext(Context);
