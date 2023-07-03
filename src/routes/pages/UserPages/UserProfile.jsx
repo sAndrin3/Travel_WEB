@@ -31,7 +31,7 @@ function UserProfile() {
          <div className="user-profile2">
       {UserInfo ? (
         <>
-          <h2>Admin Profile</h2>
+          <h2>User Profile</h2>
           <div className="user-profile__info">
             <div>
               <strong>User ID:</strong> {UserInfo.userId}
