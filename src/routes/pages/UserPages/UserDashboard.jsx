@@ -16,7 +16,7 @@ const Sidebar = () => {
     
           </SubMenu>
           <MenuItem component={<Link to = "message"/>}>Message</MenuItem>
-          <MenuItem component={<Link to = "book"/>}>Book</MenuItem>
+          {/* <MenuItem component={<Link to = "book"/>}>Book</MenuItem> */}
         </Menu>
       </div>
       <div className="content1">
