@@ -94,6 +94,9 @@ function Login() {
 
         <input type="submit" value="Login" className="login-btn" />
       </form>
+      <div>Admin: Bill, password:1234567
+            User:Sam, password:1234567
+      </div>
     </div>
   );
 }
