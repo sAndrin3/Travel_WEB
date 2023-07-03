@@ -17,7 +17,7 @@ import Messages from './routes/pages/AdminPages/Messages';
 import Navbar from './components/Navbar'
 import UserProfile from './routes/pages/UserPages/UserProfile';
 import Tours from './routes/pages/UserPages/Tours';
-import Book from './routes/pages/UserPages/Book'
+// import Book from './routes/pages/UserPages/Book'
 import Message from './routes/pages/UserPages/Message';
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
               <Route path="profile" element={<UserProfile/>}/>
              <Route path="tours" element={<Tours/>}/>
              <Route path="message" element={<Message/>}/>
-             <Route path="book" element={<Book/>}/>
+             {/* <Route path="book" element={<Book/>}/> */}
           </Route>
           <Route path="/admin" element={<AdminDashboard/>}>
              <Route path="profile" element={<AdminProfile/>}/>
