@@ -67,7 +67,7 @@ function Tours() {
                 <p>Duration: {tour.duration}</p>
                 <p>Price: {tour.price}</p>
                 <div className="actions">
-                  <button onClick={() => handleBook(tour.id)}>Book</button>
+                  <button className="btns" onClick={() => handleBook(tour.id)}>Book</button>
                 </div>
               </div>
             ))

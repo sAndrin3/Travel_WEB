@@ -54,8 +54,8 @@ function ViewTours() {
                 <p>Duration: {tour.duration}</p>
                 <p>Price: {tour.price}</p>
                 <div className="actions">
-                  <button onClick={() => handleEdit(tour.TourID)}>Edit</button>
-                  <button onClick={() => handleDelete(tour.TourID)}>Delete</button>
+                  <button className="btns" onClick={() => handleEdit(tour.TourID)}>Edit</button>
+                  <button className="btns" onClick={() => handleDelete(tour.TourID)}>Delete</button>
                 </div>
               </div>
             ))
